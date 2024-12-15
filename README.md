@@ -52,5 +52,5 @@ The table below summarizes the identified customer segments, with relevant thres
 | **Cluster 5** | 40–70             | 40–60              |
 
 These clusters provide actionable insights to guide marketing campaigns and maximize customer engagement.
-![Cluster Plot](D:\NIKOLA\Matematika\Primenjena_matematika\Mašinsko_učenje\Portfolio\Customer_Segmentation\customer_segmentation.png)
+![Cluster Plot](https://github.com/nikolabarac/customer_segmentation/blob/master/customer_segmentation.png)
 
