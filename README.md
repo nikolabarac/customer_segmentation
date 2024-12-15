@@ -9,7 +9,7 @@ In this project, I used unsupervised learning techniques to segment customers ba
 The goal of this project is to apply clustering algorithms to segment customers into meaningful groups and offer recommendations on how the marketing team can target these segments effectively.
 
 ## 🔧 Tools & Techniques Used
-This project leverages several machine learning techniques and libraries:
+This project leverages several machine learning techniques:
 - **KMeans**
 - **Gaussian Mixture Models (GMM)**
 - **Affinity Propagation**
@@ -17,29 +17,15 @@ This project leverages several machine learning techniques and libraries:
 
 Additionally, I utilized **Silhouette Score** to assess the quality of clusters and determine the best combination of variables for customer segmentation.
 
-## 🧑‍💻 Methodology
-
-### 1. Data Preprocessing
-The dataset was cleaned and preprocessed before applying clustering algorithms. Key steps included:
-- **Missing Value Imputation**: Using `SimpleImputer` to handle potential missing values, ensuring robustness for future use.
-- **Feature Selection**: Identifying the most relevant features using the silhouette score to improve clustering quality.
-
-### 2. Clustering Algorithms
-I tested several clustering algorithms to identify the best model for segmenting customers:
-- **KMeans**
-- **Gaussian Mixture**
-- **Affinity Propagation**
-- **Mean Shift**
-
 After evaluating these models, I chose the best set of features and the optimal clustering algorithm based on the silhouette score.
 
-### 3. Insights & Recommendations
+### Insights & Recommendations
 After visualizing the clusters, I used graphical methods to identify meaningful patterns and recommend targeted strategies. The marketing team can use the segmentation to:
 - Narrow their marketing campaigns
 - Design promotions targeting specific customer groups
 - Enhance customer engagement and satisfaction
 
-### 4. Final Recommendations Table
+### Final Recommendations Table
 
 The table below summarizes the identified customer segments, with relevant thresholds for **Annual Income** and **Spending Score**:
 
